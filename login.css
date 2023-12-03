@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+* {
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+:root {
+    --body-background: #000;
+    --form-background: #222;
+    --button-background: #888;
+    --main-text-color: #fff;
+
+}
+
+body {
+    background: url(./images/gaming.jpg) 50% 50% no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.mainWrapper {
+    width: 60%;
+    margin: 50px auto;
+    
+    color: #000;
+    text-align: center;
+}
+
+.log-text {
+    font-size: 1.2em;
+}
+
+form {
+    padding: 20px;
+    width: 90%;
+    background-color: var(--form-background);
+    color: var(--main-text-color);
+    display: flex;
+    gap: 8px;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: rgb(0, 217, 255);
+    text-decoration: none;
+}
+.username {
+    margin-top: 30px;
+}
+input  {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    font-size: 1.3em;
+}
+
+input[placeholder="USERNAME"], input[placeholder="PASSWORD"] {
+    color: #eee;
+}
+
+input:focus {
+    border-bottom: 2px solid rgb(0, 217, 255);
+}
+
+.loginBtn {
+    margin-top: 20px;
+    height: 55px;
+    width: 100%;
+    background-color: #999;
+    border: none;
+}
+
+.loginBtn:hover {
+    background-color: #eee;
+}
+
+.forgot-username {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    color: rgb(0, 255, 221);
+}
+
+.sign-options {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.other_options {
+    font-size: 1.2em;
+}
+
+
+.newTo {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.newUser {
+    font-weight: 700;
+    font-size: 1.3em;
+
+}
+
+.create-account {
+    color: rgb(0, 204, 255);
+    font-size: 1.4em;
+}
+
+
+
+@media only screen and  (min-width: 900px) {
+    
+    
+    form {
+        margin: 30px 270px auto;
+        width: 40%;
+    }
+}
+
+
+
+
+
